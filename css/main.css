@@ -1,559 +1,552 @@
-
-@import url('https://fonts.googleapis.com/css?family=BioRhyme|Abel');
-
-/*for desktop screens*/
-@media screen and (min-width: 300px){
-	
-    main {
+      @import url('https://fonts.googleapis.com/css?family=BioRhyme|Abel');
+    /*for desktop screens*/
+    
+    @media screen and (min-width: 300px) {
+      main {
         max-width: 960px;
         margin: 0 auto;
-    }
-    
-html {
-  height: 100%;
-  width:100%;
-  margin: 0;
-  padding: 0;
-font-family: 'Abel', sans-serif;
-font-family: 'BioRhyme', serif;
-}
-
-body {
-  color: white;
-  background-image: url(https://www.ilovecameras.net/wp-content/uploads/2015/09/0509e585d96ab621a658531110829dc7.jpg);
-  background-repeat: repeat;
-  background-size: cover;
-  margin: 0;
-  display: table;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-}
-table {
-    margin: 0 auto;
-    width: 60%;
-}
-
-header {
-	background-color:rgba(25,25,25,0.9);
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: antiquewhite;
-  padding: 10px;
-  text-align: center;
-  background-position: 50% 50%;
-}
-
-footer {
-  background-color: rgb(25, 25, 25);
-  color: antiquewhite;
-  display: table-row;
-  height: 1px;
-  text-align: center;
-}
-
-h1 {
-  
-	background-color:rgba(25,25,25,0.5);
-  -webkit-transition: all 1.0s;
-  border: 7px solid rgb(40, 40, 40);
-    border-style: double;
-  padding: 10px;
-  border-radius: 25px;
-
-  margin:2%;
-
-}
-
-h2 {
-
-  margin-left:20px;
-  margin-right:20px;
-  -webkit-transition: all 1.0s;
-  color: navajowhite;
-  height:50px;
-  text-align: center;
-  font-family:"BioRhyme"
-
-}
-h3{
-  	background-color:rgba(25,25,25,0.8);
-  text-align: center;
-  font-family:"Abel";
-    padding-top:10px;
-      padding-bottom:10px;
-      border-radius: 5px;
-}
-
-input[type="text"],
-input[type="password"] {
-  height: 20px;
-  width: 150px;
-  font-size: 14px;
-  background-color: #fff;
-  padding-left: 30px
-}
-
-nav {
-  background-color:rgb(25, 25, 25);
-  color:white;
-  width: 100%;
-  margin: auto;
-  text-align: center;
-}
-
-
-
-.centering {
-  text-align: center;
-}
-
-
-.no-results {
-  text-align: center;
-  width:100%;
-	background-color:rgba(25,25,25,0.9);
-  height:30%;
-  	border-bottom: rgb(0, 0, 0) double 15px;
-
-}
-
-.homebox {
-  padding:2%;
-  text-align : center;
-  margin-left: 20%;
-  margin-right: 20%;
-  font-size:100%;
-  font-family:"Abel";
-  background-color:rgba(25,25,25,0.8);
-  border-radius: 10px;
-}
-.homebox2 {
-  padding:2%;
-  text-align : center;
-  margin-left: 30%;
-  margin-right: 30%;
-  font-size:100%;
-  font-family:"Abel";
-  border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-  background-color:rgba(25,25,25,0.9);
-  	border-bottom: rgb(0, 0, 0) double 15px;
-}
-.homebox3 {
-  padding:2%;
-  text-align : center;
-  margin-left: 10%;
-  margin-right: 10%;
-  font-size:100%;
-  font-family:"Abel";
-  border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-  background-color:rgba(25,25,25,0.9);
-  	border-bottom: rgb(0, 0, 0) double 15px;
-}
-
-
-.button {
-  border-radius: 2px;
-  background-color: rgb(40, 40, 40);
-border: 3px solid rgb(30, 30, 30);
-border-radius: 5px;
-  color: #FFFFFF;
-  text-align: center;
-  padding: 12px;
-  width: 20%;
-  transition: all 1.5s;
-  cursor: pointer;
-  margin: 5px;
-  font-size: 100%;
-      margin-left: auto ;
-  margin-right: auto ;
-}
-
-.button span {
-  cursor: pointer;
-  pointer-events: visibleFill;
-  display: inline-block;
-  position: relative;
-  transition: 1.0s;
-}
-
-.button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -30px;
-  transition: 1.0s;
-}
-
-.button:hover span {
-  padding-right: 30px;
-  color:navajowhite;
-}
-
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-h1:hover {
-
-
-  
-}
-h2:hover {
-
-}
-
-
-p {
-  text-align: center;
-  color:white;
-  height:70px;
-  border:none;
-  font-size: 100%;
-}
-
-.text1 {
-    font-size:100%;
-  font-family:"Abel";
-  color:white;
-	background-color:rgba(40,40,40,0.9);
-  margin-left:10%;
-  margin-right:10%;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-bottom : 3%;
-  padding-top : 3%;
-  clear:left;
-  height:absolute;
-  font-size:100%;
-  border-radius:10px;
-  text-align:center;
-    	border: rgba(25,25,25,0.1) solid 10px;
-}
-.boxke {
-  color:white;
-	background-color:rgb(40,40,40);
-  margin-top:3%;
-  margin-left:3%;
-  margin-right:3%;
-padding:5%;
-  clear:left;
-  height:absolute;
-  font-size:100%;
-  border-radius:10px;
-  text-align:center;
-.text2 {
-  color:white;
-	background-color:rgba(40,40,40,0.7);
-  margin-left:5%;
-  margin-right:5%;
-  padding: 3%;
-  clear:left;
-  height:absolute;
-    font-size:100%;
-      border-radius:10px;
-}
-.text3 {
-  color:white;
-	background-color:rgba(40,40,40,0.7);
-  margin-left:5%;
-  margin-right:5%;
-  padding: 3%;
-  clear:left;
-  height:absolute;
-    font-size:100%;
-      border-radius:10px;
-}
-.video{
-margin:2%;
-}
-
-img {
- width: absolute;
-    height: absolute;
-    border: 5px solid black;
-    border-radius:25px;
-}
-
-main{
-    width: 100%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-
-#feedback-page{
-	text-align:center;
-}
-
-#form-main{
-
-	float:left;
-
-}
-
-#form-div {
-
-	background-color:rgba(40,40,40,0.6);
-	padding-left:50px;
-	padding-right:50px;
-	padding-top:35px;
-	padding-bottom:50px;
-	width: 450px;
-	float: left;
-	left: 50%;
-	position: absolute;
-	margin-left: -260px;
-  
-
-}
-.footer{
-
-}
-.feedback-input {
-	color:#3c3c3c;
-	font-size: 18px;
-	border-radius: 0;
-	line-height: 22px;
-	background-color: #fbfbfb;
-	padding: 13px 13px 13px 54px;
-	margin-bottom: 10px;
-	width:100%;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-ms-box-sizing: border-box;
-	box-sizing: border-box;
-  border: 3px solid rgba(0,0,0,0);
-  border-radius: 5px;
-}
-
-.feedback-input:focus{
-	background: #fff;
-	box-shadow: 0;
-	border: 5px solid navajowhite;
-	color: black;
-	outline: none;
-}
-
-
-
-
-#comment{
-	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
-	background-size: 30px 30px;
-	background-position: 11px 8px;
-	background-repeat: no-repeat;
-}
-
-textarea {
-    width: 100%;
-    height: 150px;
-    line-height: 150%;
-    resize:vertical;
-}
-
-input:hover, textarea:hover,
-input:focus, textarea:focus {
-	background-color:white;
-}
-
-#button-blue{
-	float:left;
-	width: 100%;
-	border: #fbfbfb solid 4px;
-	cursor:pointer;
-	background-color: rgb(40, 40, 40);
-	color:white;
-	font-size:24px;
-	padding-top:22px;
-	padding-bottom:22px;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
-  margin-top:-4px;
-  font-weight:700;
-}
-
-	
-
-
-.submit:hover .ease{
-  width:100%;
-  background-color:white;
-  
-}
-
-@media only screen and (max-width: 580px) {
-	#form-div{
-		left: 3%;
-		margin-right: 3%;
-		width: 88%;
-		margin-left: 0;
-		padding-left: 3%;
-		padding-right: 3%;
-	}
-}
-#email{
-  width:60%;
-}
-#name{
-  width:60%;
-}
-#center{
-  float:right;
-}
-iframe { 
-  	border: rgb(25, 25, 25) solid 10px; 
-    border-radius: 10px;
-      border-style: double;
-  margin:10px; 
-display: block;
-margin: 0 auto;
-}
-.videoiframe iframe {width:100%; height: auto}
-#midden {
-  text-align: center;
-}
-
-/* Style all font awesome icons */
-
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 10%;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 15%;
-}
-
-
-/* Add a hover effect if you want */
-.fa:hover {
-      padding: 10px;
-    width: 10%;
-    text-align: center;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.8s;
-    transition: all 0.8s
-}
-
-/* Set a specific color for each brand */
-
-/* Facebook */
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-}
-
-/* Twitter */
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
-/* Instagram */
-.fa-instagram {
-    background: #125688;
-    color: white;
-}
-/* Youtube */
-.fa-youtube {
-    background:  #bb0000;
-    color: white;
-}
-/* apply a natural box layout model to all elements */
-*, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.my_container ul {
-  list-style: none;
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
-  clear: both;
-  
-}
-.my_container ul .block {
-  width: 20%;
-  height: auto;
-  position: relative;
-  float: left;
-  margin: 0 0 0 0;
-  padding: 0 0 20% 0;
-  transition: 0.8s ease;
-  border: 3px solid rgb(30, 30, 30);
-}
-.my_container ul .block:hover span {
-  height: 75%;
-}
-@media screen and (max-width: 1280px) {
-  .my_container ul .block {
-    width: 25%;
-    padding-bottom: 25%;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .my_container ul .block {
-    width: 33.33%;
-    padding-bottom: 33.33%;
-  }
-}
-@media screen and (max-width: 600px) {
-  .my_container ul .block {
-    width: 50%;
-    padding-bottom: 50%;
-  }
-}
-@media screen and (max-width: 360px) {
-  .my_container ul .block {
-    width: 100%;
-    padding-bottom: 100%;
-  }
-}
-.my_container ul .block img {
-  max-width: none;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.my_container ul .block span {
-  width: 100%;
-  height: 6rem;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  padding: 0 1rem;
-  font-size: 100%;
-  text-align: center;
-  color: #fff;
-  background: rgba(0, 0, 0, 0.5);
-  transition: 0.8s ease;
-}
-.mapouter{
-    margin-left: auto ;
-  margin-right: auto ;
-  width:100%;
-  height:100%;
-}
-.maps{
-  width:100%;
-}
+      }
+      html {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: 'Abel', sans-serif;
+        font-family: 'BioRhyme', serif;
+      }
+      body {
+        color: white;
+        background-image: url(https://www.ilovecameras.net/wp-content/uploads/2015/09/0509e585d96ab621a658531110829dc7.jpg);
+        background-repeat: repeat;
+        background-size: cover;
+        margin: 0;
+        display: table;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+      }
+      table {
+        margin: 0 auto;
+        width: 60%;
+      }
+      p {
+        padding: 2%;
+        text-align: center;
+        margin-left: 20%;
+        margin-right: 20%;
+        font-size: 100%;
+        font-family: "Abel";
+        background-color: rgba(25, 25, 25, 0.8);
+        border-radius: 10px;
+      }
+      header {
+        background-color: rgba(25, 25, 25, 0.9);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: antiquewhite;
+        padding: 10px;
+        text-align: center;
+        background-position: 50% 50%;
+      }
+      footer {
+        background-color: rgb(25, 25, 25);
+        color: antiquewhite;
+        display: table-row;
+        height: 1px;
+        text-align: center;
+      }
+      h1 {
+        background-color: rgba(25, 25, 25, 0.5);
+        -webkit-transition: all 1.0s;
+        border: 7px solid rgb(40, 40, 40);
+        border-style: double;
+        padding: 10px;
+        border-radius: 25px;
+        font-size: 200%;
+        margin: 2%;
+        font-family: 'Biorhyme'
+      }
+      h2 {
+        margin-left: 20px;
+        margin-right: 20px;
+        -webkit-transition: all 1.0s;
+        color: navajowhite;
+        height: 50px;
+        text-align: center;
+        font-family: "BioRhyme";
+        font-size: 150%;
+      }
+      h3 {
+        background-color: rgba(25, 25, 25, 0.8);
+        text-align: center;
+        font-family: "Abel";
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 5px;
+      }
+      input[type="text"],
+      input[type="password"] {
+        height: 20px;
+        width: 150px;
+        font-size: 14px;
+        background-color: #fff;
+        padding-left: 30px
+      }
+      nav {
+        background-color: rgb(25, 25, 25);
+        color: white;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+      }
+      textarea {
+        width: 100%;
+        height: 150px;
+        line-height: 150%;
+        resize: vertical;
+      }
+      img {
+        width: absolute;
+        height: absolute;
+        border: 5px solid black;
+        border-radius: 25px;
+      }
+      main {
+        width: 100%;
+      }
+      fieldset {
+        border: medium none !important;
+        margin: 0 0 10px;
+        min-width: 100%;
+        padding: 0;
+        width: 100%;
+      }
+      iframe {
+        border: rgb(25, 25, 25) solid 10px;
+        border-radius: 10px;
+        border-style: double;
+        margin: 10px;
+        display: block;
+        margin: 0 auto;
+      }
+      /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+      @media only screen and (max-width: 480px) {
+        .col {
+          margin: 1% 0 1% 0%;
+        }
+      }
+      @media only screen and (max-width: 480px) {
+        .span_2_of_2 {
+          width: 100%;
+        }
+        .span_1_of_2 {
+          width: 100%;
+        }
+      }
+      @media screen and (max-width: 1280px) {
+        .my_container ul .block {
+          width: 25%;
+          padding-bottom: 25%;
+        }
+      }
+      @media screen and (max-width: 1024px) {
+        .my_container ul .block {
+          width: 33.33%;
+          padding-bottom: 33.33%;
+        }
+      }
+      @media screen and (max-width: 600px) {
+        .my_container ul .block {
+          width: 50%;
+          padding-bottom: 50%;
+        }
+      }
+      @media screen and (max-width: 360px) {
+        .my_container ul .block {
+          width: 100%;
+          padding-bottom: 100%;
+        }
+      }
+      @media only screen and (max-width: 580px) {
+        #form-div {
+          left: 3%;
+          margin-right: 3%;
+          width: 88%;
+          margin-left: 0;
+          padding-left: 3%;
+          padding-right: 3%;
+        }
+      }
+
+      h1:hover {}
+      h2:hover {}
+      p {
+        text-align: center;
+        color: white;
+        height: 70px;
+        border: none;
+        font-size: 100%;
+      }
+      input:hover,
+      textarea:hover,
+      input:focus,
+      textarea:focus {
+        background-color: white;
+      }
+      .centering {
+        text-align: center;
+      }
+      .no-results {
+        text-align: center;
+        width: 100%;
+        background-color: rgba(25, 25, 25, 0.9);
+        height: 30%;
+        border-bottom: rgb(0, 0, 0) double 15px;
+      }
+      .homebox {
+        padding: 2%;
+        text-align: center;
+        margin-left: 20%;
+        margin-right: 20%;
+        font-size: 100%;
+        font-family: "Abel";
+        background-color: rgba(25, 25, 25, 0.8);
+        border-radius: 10px;
+      }
+      .homebox2 {
+        padding: 2%;
+        text-align: center;
+        margin-left: 30%;
+        margin-right: 30%;
+        font-size: 100%;
+        font-family: "Abel";
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        background-color: rgba(25, 25, 25, 0.9);
+        border-bottom: rgb(0, 0, 0) double 15px;
+      }
+      .homebox3 {
+        padding: 2%;
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 100%;
+        font-family: "Abel";
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        background-color: rgba(25, 25, 25, 0.9);
+        border-bottom: rgb(0, 0, 0) double 15px;
+      }
+      .button {
+        border-radius: 2px;
+        background-color: rgb(40, 40, 40);
+        border: 3px solid rgb(30, 30, 30);
+        border-radius: 5px;
+        color: #FFFFFF;
+        text-align: center;
+        padding: 12px;
+        width: 20%;
+        transition: all 1.5s;
+        cursor: pointer;
+        margin: 5px;
+        font-size: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .button span {
+        cursor: pointer;
+        pointer-events: visibleFill;
+        display: inline-block;
+        position: relative;
+        transition: 1.0s;
+      }
+      .button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -30px;
+        transition: 1.0s;
+      }
+      .button:hover span {
+        padding-right: 30px;
+        color: navajowhite;
+      }
+      .button:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+      .text1 {
+        font-size: 100%;
+        font-family: "Abel";
+        color: white;
+        background-color: rgba(40, 40, 40, 0.9);
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 3%;
+        padding-top: 3%;
+        clear: left;
+        height: absolute;
+        font-size: 100%;
+        border-radius: 10px;
+        text-align: center;
+        border: rgba(25, 25, 25, 0.1) solid 10px;
+      }
+      .boxke {
+        color: white;
+        background-color: rgb(40, 40, 40);
+        margin-top: 3%;
+        margin-left: 3%;
+        margin-right: 3%;
+        padding: 5%;
+        clear: left;
+        height: absolute;
+        font-size: 100%;
+        border-radius: 10px;
+        text-align: center;
+        .text2 {
+          color: white;
+          background-color: rgba(40, 40, 40, 0.7);
+          margin-left: 5%;
+          margin-right: 5%;
+          padding: 3%;
+          clear: left;
+          height: absolute;
+          font-size: 100%;
+          border-radius: 10px;
+        }
+        .text3 {
+          color: white;
+          background-color: rgba(40, 40, 40, 0.7);
+          margin-left: 5%;
+          margin-right: 5%;
+          padding: 3%;
+          clear: left;
+          height: absolute;
+          font-size: 100%;
+          border-radius: 10px;
+        }
+        .video {
+          margin: 2%;
+        }
+      }
+
+      .container {
+        max-width: 400px;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+      }
+      #contact input[type="text"],
+      #contact input[type="email"],
+      #contact input[type="tel"],
+      #contact input[type="url"],
+      #contact textarea,
+      #contact button[type="submit"] {}
+      #contact {
+        background: #F9F9F9;
+        padding: 25px;
+        margin: 50px 0;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+      }
+      #contact h3 {
+        display: block;
+        font-size: 30px;
+        font-weight: 300;
+        margin-bottom: 10px;
+      }
+      #contact h4 {
+        margin: 5px 0 15px;
+        display: block;
+        font-size: 13px;
+        font-weight: 400;
+      }
+      #contact input[type="text"],
+      #contact input[type="email"],
+      #contact input[type="tel"],
+      #contact input[type="url"],
+      #contact textarea {
+        width: 100%;
+        border: 1px solid #ccc;
+        background: #FFF;
+        margin: 0 0 5px;
+        padding: 10px;
+      }
+      #contact input[type="text"]:hover,
+      #contact input[type="email"]:hover,
+      #contact input[type="tel"]:hover,
+      #contact input[type="url"]:hover,
+      #contact textarea:hover {
+        -webkit-transition: border-color 0.3s ease-in-out;
+        -moz-transition: border-color 0.3s ease-in-out;
+        transition: border-color 0.3s ease-in-out;
+        border: 1px solid #aaa;
+      }
+      #contact textarea {
+        height: 100px;
+        max-width: 100%;
+        resize: none;
+      }
+      #contact button[type="submit"] {
+        cursor: pointer;
+        width: 100%;
+        border: none;
+        background: rgba(25, 25, 25, 0.8);
+        color: #FFF;
+        margin: 0 0 5px;
+        padding: 10px;
+        font-size: 15px;
+      }
+      #contact button[type="submit"]:hover {
+        background: #43A047;
+        -webkit-transition: background 0.3s ease-in-out;
+        -moz-transition: background 0.3s ease-in-out;
+        transition: background-color 0.3s ease-in-out;
+      }
+      #contact button[type="submit"]:active {
+        box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+      }
+      .copyright {
+        text-align: center;
+      }
+      #contact input:focus,
+      #contact textarea:focus {
+        outline: 0;
+        border: 1px solid #aaa;
+      }
+      #midden {
+        text-align: center;
+      }
+      /* Style all font awesome icons */
+      .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 10%;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 15%;
+      }
+      /* Add a hover effect if you want */
+      .fa:hover {
+        padding: 10px;
+        width: 10%;
+        text-align: center;
+        -webkit-transition-duration: 0.4s;
+        /* Safari */
+        transition-duration: 0.8s;
+        transition: all 0.8s
+      }
+      /* Set a specific color for each brand */
+      /* Facebook */
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      /* Twitter */
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      /* Instagram */
+      .fa-instagram {
+        background: #125688;
+        color: white;
+      }
+      /* Youtube */
+      .fa-youtube {
+        background: #bb0000;
+        color: white;
+      }
+      /* apply a natural box layout model to all elements */
+      *,
+      *:before,
+      *:after {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+      .my_container ul {
+        list-style: none;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        clear: both;
+      }
+      .my_container ul .block {
+        width: 20%;
+        height: auto;
+        position: relative;
+        float: left;
+        margin: 0 0 0 0;
+        padding: 0 0 20% 0;
+        transition: 0.8s ease;
+        border: 3px solid rgb(30, 30, 30);
+      }
+      .my_container ul .block:hover span {
+        height: 75%;
+      }
+      .my_container ul .block img {
+        max-width: none;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .my_container ul .block span {
+        width: 100%;
+        height: 6rem;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 0 1rem;
+        font-size: 100%;
+        text-align: center;
+        color: #fff;
+        background: rgba(0, 0, 0, 0.5);
+        transition: 0.8s ease;
+      }
+      .mapouter {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 100%;
+      }
+      .maps {
+        width: 100%;
+      }
+      /*  SECTIONS  */
+      .section {
+        clear: both;
+        padding: 0px;
+        margin: 0px;
+      }
+      /*  COLUMN SETUP  */
+      .col {
+        display: block;
+        float: left;
+        margin: 1% 0 1% 1.5%;
+      }
+      .col:first-child {
+        margin-left: 0;
+      }
+      /*  GROUPING  */
+      .group:before,
+      .group:after {
+        content: "";
+        display: table;
+      }
+      .group:after {
+        clear: both;
+      }
+      .group {
+        zoom: 1;
+        /* For IE 6/7 */
+      }
+      /*  GRID OF TWO  */
+      .span_2_of_2 {
+        width: 100%;
+      }
+      .span_1_of_2 {
+        width: 49.25%;
+      }

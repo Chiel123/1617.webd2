@@ -1,59 +1,67 @@
-<!DOCTYPE html SYSTEM "about:legacy-compat"> 
+<!DOCTYPE html SYSTEM "about:legacy-compat">
 <html dir="ltr" lang="nl-be" class="no-js" prefix="og: http://ogp.me/ns#">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Homepagina</title>
-    <link href="app.css" rel="stylesheet"/> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    <link rel="stylesheet" media="all" href="css/fonts.css">
-    <link rel="stylesheet" media="all" href="css/typography.css">
-    <link rel="stylesheet" media="all" href="css/main.css">
-    <!-- Modernizr: feature detection -->
-    <script src="vendor/modernizr/modernizr.min.js"></script>
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Offerte</title>
+  <link href="app.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" media="all" href="css/fonts.css">
+  <link rel="stylesheet" media="all" href="css/typography.css">
+  <link rel="stylesheet" media="all" href="css/main.css">
+  <!-- Modernizr: feature detection -->
+  <script src="vendor/modernizr/modernizr.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <nav>
+  <nav>
     <!-- Broodkruimelnavigatie (Breadcrumb navigation) -->
     <a href="index.html">Start</a>
     <!-- Anchor met hypertext reference -->/ Offerte
   </nav>
-    <header>
-<h1>Offerte</h1>
-</header>
-   <br>
- <div class="homebox">
-
-<h2>Vraag ier uw offerte aan.</h2>
-
-<br> Heeft u enkele vragen of onduidelijkheden?<br> Dan kunnen wij deze ook via mail beantwoorden.<br>
-Wij strever ernaar om u een antwoord te geven binnen de <strong>48 uur.</strong><br><br>
-Heeft u erg dringende vragen, dan kunt u ons beter telefonisch bereiken op het nummer : <strong>+32/00/000/000.</strong><br>
-</div>
-<br>
-<div>
-<div id="form-main">
-  <div id="form-div">
-    <form class="form" id="form1">    
-      <p class="name">
-        <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
-      </p>
-      
-      <p class="email">
-        <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
-      </p>
-      
-      <p class="text">
-        <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
-      </p>
-      
-      <br><br><br>
-      <div class="submit">
-        <input type="submit" value="SEND" id="button-blue"/>
-        <div class="ease"></div>
-      </div>
-    </form>
+  <header>
+    <h1>Offerte</h1>
+  </header>
+  <br>
+  <div class="homebox">
+    <h2>Vraag ier uw offerte aan.</h2>
+    <br> Heeft u enkele vragen of onduidelijkheden?<br> Dan kunnen wij deze ook via mail beantwoorden.<br> Wij strever ernaar om u een antwoord te geven binnen de <strong>48 uur.</strong><br><br> Heeft u erg dringende vragen, dan kunt u ons beter telefonisch
+    bereiken op het nummer : <strong>+32/00/000/000.</strong><br>
   </div>
+  <br>
+<div class="container">  
+  <form id="contact" action="" method="post">
+    <h3>Contacteer ons hier</h3>
+    <h4>Contact us for custom quote</h4>
+    <fieldset>
+      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Email Address" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+    </fieldset>>
+    <fieldset>
+      <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+  </form>
+</div>
+  <footer>
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    </html>
+    <!-- Add font awesome icons -->
+    <div class="socialmedia">
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      <a href="#" class="fa fa-youtube"></a>
+    </div>
+    Copyright 2017
+  </footer>
+</html>
 </body>
